@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - /media/gede/2nd SSD/LaskarAI/Submission/MSML/preprocessing/diabet_preprocessing.csv
-      - /media/gede/2nd SSD/LaskarAI/Submission/MSML/preprocessing/automate_Gede Pradnyananda.py
+      - preprocessing/diabet_preprocessing.csv
+      - preprocessing/automate_GedePradnyananda.py
 
 jobs:
   preprocess:
@@ -29,4 +29,4 @@ jobs:
         pip install pandas numpy scikit-learn mlflow==2.19.0 imbalanced-learn
 
     - name: Run Preprocessing
-      run: python "preprocessing/automate_Gede Pradnyananda.py"
+      run: python "preprocessing/automate_GedePradnyananda.py"
