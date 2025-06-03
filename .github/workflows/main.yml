@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - preprocessing/diabet_preprocessing.csv
-      - preprocessing/automate_Gede Pradnyananda.py
+      - /media/gede/2nd SSD/LaskarAI/Submission/MSML/preprocessing/diabet_preprocessing.csv
+      - /media/gede/2nd SSD/LaskarAI/Submission/MSML/preprocessing/automate_Gede Pradnyananda.py
 
 jobs:
   preprocess:
