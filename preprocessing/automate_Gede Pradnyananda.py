@@ -47,7 +47,7 @@ def preprocess_diabetes_dataset(input_path: str, output_dir: str, target_column:
 
 if __name__ == "__main__":
     input_file = "diabet_preprocessing.csv"
-    output_dir = "preprocessing/outputs"
+    output_dir = "preprocessing"
 
     mlflow.set_tracking_uri("file:./mlruns")
 
