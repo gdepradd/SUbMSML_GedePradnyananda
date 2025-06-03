@@ -1,6 +1,7 @@
 name: Run Data Preprocessing
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - preprocessing/diabet_preprocessing.csv
