@@ -1,0 +1,15 @@
+artifact_uri: file:///media/gede/2nd SSD/LaskarAI/Submission/MSML/preprocessing/mlruns/0/009ada104d0245cd8c8a39f41a2405c4/artifacts
+end_time: 1748788015085
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 009ada104d0245cd8c8a39f41a2405c4
+run_name: Preprocessing_Diabetes_SMOTE
+run_uuid: 009ada104d0245cd8c8a39f41a2405c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748788015072
+status: 4
+tags: []
+user_id: gede
